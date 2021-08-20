@@ -2,8 +2,7 @@
 
 Version 2! See V1 [here](https://github.com/uozuAho/pi_cam_v1).
 
-# to do
-- images of finished product, any issues?
+![](./img/20210808_123055.jpg)
 
 # parts list
 - [Raspberry Pi Zero W](https://www.raspberrypi.org/pi-zero-w/)
@@ -18,6 +17,9 @@ Version 2! See V1 [here](https://github.com/uozuAho/pi_cam_v1).
 - SD card: class 10 16gb
 - [PSU: 5v 2.5A usb micro b](https://core-electronics.com.au/raspberry-pi-3-power-supply.html)
 
+# construction
+See [how to build](./how_to_build.md)
+
 # software
 - [Raspberry Pi OS Lite](https://www.raspberrypi.org/software/operating-systems/)
   - Setup instructions [here](https://github.com/uozuAho/pi_stuff/blob/main/setup.md)
@@ -30,3 +32,12 @@ to watch the stream. This made it easy to position the camera.
 - [video stream script](https://github.com/uozuAho/pi_stuff/blob/main/video_stream.sh)
 - [video record script](https://github.com/uozuAho/pi_stuff/blob/main/video_record_loop.sh)
 - [scan for motion script](https://github.com/uozuAho/pi_stuff/blob/main/video_scan.sh)
+
+# issues
+- The camera/IR LED module has no extra holes for attaching it to the box. The
+  double sided tape it comes with is not sufficient to hold the module in place.
+  Perhaps you could drill holes into the front of the jiffy box, and use longer
+  screws to attach both the LEDs and the jiffy box cover to the camera module.
+- Not airtight/waterproof
+- The bright LEDs next to the camera illuminate dust & bugs flying past the
+  camera, which can trigger motion detection
